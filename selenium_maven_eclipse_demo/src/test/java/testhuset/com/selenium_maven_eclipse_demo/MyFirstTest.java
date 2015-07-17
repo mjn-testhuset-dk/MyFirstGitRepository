@@ -7,6 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import junit.framework.Assert;
 
 
+@SuppressWarnings("deprecation")
 public class MyFirstTest {
 	
 	@Test
