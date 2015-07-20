@@ -12,6 +12,8 @@ public class Selenium_NavigatorTest {
 		WebDriver driver = new FirefoxDriver();
 		driver.navigate().to("http://seleniumsimplified.com");
 		Assert.assertTrue(driver.getTitle().startsWith("Selenium Simplified"));
+		driver.navigate().to("http://www.dr.dk/");
+		Assert.assertTrue(driver.getTitle().startsWith("DR Forsiden - "));
 		driver.close();
 	} 
 }
